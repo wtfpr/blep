@@ -42,18 +42,25 @@ table, th, td, tr{
 table{
     width: 100%;
 }
+
+  footer{
+      display: block;
+  }
 a:link {
-    color: rgb(247, 79, 1);
+    color: black;
     text-decoration: none;
   }
   a:visited {
-    color: hotpink;
+    color: darkgray;
     text-decoration: none;
   }
   a:hover {
     color: chartreuse;
     text-decoration: underline;
   }
-  footer{
-      display: block;
+@media screen and (max-width: 600px) {
+  div.blooppng {
+    display: none;
   }
+}
+
