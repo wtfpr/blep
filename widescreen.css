@@ -44,17 +44,17 @@ table{
     width: 100%;
 }
 a:link {
-    color: rgb(247, 79, 1);
+    color: black;
     text-decoration: none;
   }
   a:visited {
-    color: hotpink;
+    color: darkgrey;
     text-decoration: none;
   }
   a:hover {
     color: chartreuse;
     text-decoration: underline;
-  }
+}
   footer{
       display: block;
   }
