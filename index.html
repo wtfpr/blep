@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blep</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
 </head>
 <header>
 <h1>Hej och välkommen.</h1>
@@ -16,7 +18,7 @@
         <div><a href="#hepp">blip</a></div>
         <div><a href="#hopp">blop</a></div>
         <div><a href="#hupp">blup</a></div>
-        <img src="bloop.jpg" WIDTH="80" height="80" alt="Bloop">
+        <div id="blooppng"><img src="bloop.jpg" WIDTH="80" height="80" alt="Bild på det fiktiva odjuret vid namn Bloop."></div>
     </div>
     <!--
         Önskar jag hade lite mer kreativ med texten, men här är vi
@@ -54,8 +56,17 @@ hopp
 hupp
 </h2>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, voluptatibus, eveniet ducimus laudantium enim pariatur commodi non reprehenderit earum officia assumenda eum blanditiis, doloribus voluptates fuga temporibus ab ullam harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nobis. Commodi asperiores eum omnis culpa maxime corrupti sint dignissimos temporibus, natus officiis voluptatem in eligendi vel alias quas, ab veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloribus laudantium est quis sunt. Minus quia perspiciatis vel necessitatibus aliquam laborum eaque. Eaque obcaecati dicta quod tenetur alias illo qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus possimus architecto voluptatum sequi voluptas ipsam maiores, beatae commodi deserunt quas corporis eveniet quam. Dolorem reiciendis odit deleniti omnis quam recusandae!</p>
+<div class="container">
+    <div class="row max-height align-items-center text-center">
+        <div class="col">
+            <button class="btn btn-outline-secondary">Byt bakgrundsfärg!</button>
+        </div> 
 
-<p><a href="#upp">Upp</a></p></body>
+    </div>
+           
+</div>
+<script src="script.js"></script>
+</body>
 <!--Här tar vi slut-->
 <footer><h1>Tack och förlåt.</h1></footer>
 </html>
