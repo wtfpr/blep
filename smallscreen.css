@@ -59,8 +59,8 @@ a:link {
   footer{
       display: block;
   }
-  @media screen {
-    div.blooppng {
-      display: none;
-    }
+@media screen and (max-width: 600px) {
+  div.blooppng {
+    display: none;
   }
+}
